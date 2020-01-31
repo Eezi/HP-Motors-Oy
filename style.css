@@ -33,6 +33,20 @@ body {
  .btn:hover {
     background: #193367;
 }
+.btn2 {
+    background: var(--dark);
+    color: var(--light);
+    /* 1rem = 16px*/
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border: 0;
+    
+    align-items: center;
+}
+ .btn2:hover {
+    background: #193367;
+}
+
 
 img {
     max-width: 100%;
@@ -145,6 +159,28 @@ img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 3rem;
+}
+.info2 {
+    background: var(--primary);
+    box-shadow: var(--shadow);
+    padding: 3rem;
+    text-align: center;
+}
+.info2 input {
+    width: 200px;
+    height: 35px;
+    padding: 0 10px;
+    font-size: 17px;
+    margin: 10px;
+}
+.info2 textarea {
+    width: 34%;
+    height: 250px;
+    resize: none;
+    padding: 5px 10px;
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 20px;
 }
 /*Portfolio*/
 .portfolio {
