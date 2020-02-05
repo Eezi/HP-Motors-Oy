@@ -8,6 +8,7 @@
 
 
 html {
+    
     scroll-behavior: smooth;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
@@ -53,6 +54,7 @@ body {
 
 img {
     max-width: 100%;
+    
 }
 
 .wrapper {
@@ -71,12 +73,12 @@ img {
 }
 
 .main-nav a {
-    background-color: #f2f2f2;
+    background-color: #333;
     display: block;
     text-decoration: none;
     padding: 0.8rem;
     text-align: center;
-    color: #333;
+    color: #fff;
     text-decoration: uppecase;
     font-size: 1.5rem;
     box-shadow: var(--primary);
@@ -89,13 +91,13 @@ img {
 }
 .main-nav {
     position: fixed;
-    width: 100%;
+    width: 96.9%;
     overflow: hidden;
 }
 
 /*Top Container*/
 .top-container {
-    
+    margin-top: 2.5%;
     display: grid;
     grid-gap: 20px;
     
@@ -104,26 +106,33 @@ img {
     'showcase showcase top-box-a'
     'showcase showcase top-box-b';*/
 }
-.teksti {
+.teksti {  
     color: #fff;
-   
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    
 }
+
 
 /*Showcase*/
 .showcase {
-    /*filter: brightness(80%);*/
-    grid-area: showcase;
+    
     min-height: 400px;
     background: url(garage.jpg);
     background-size: cover;
     background-position: center;
     padding: 3rem;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
     box-shadow: var(--shadow);
+    display: flex;
 }
+.showcase:after {
+    filter: brightness(50%);
+}
+
+
 
 .showcase p {
     font-size: 1.3rem;
@@ -136,6 +145,7 @@ img {
     
 }
 /*TOP-Box*/
+/*
 .top-box {
     background: var(--primary);
     display: grid;
@@ -153,7 +163,7 @@ img {
 .top-box-b {
     grid-area: top-box-b ;
 }
-
+*/
 /* Boxes*/
 .boxes {
     
@@ -201,6 +211,7 @@ img {
 }
 /*Portfolio*/
 .portfolio {
+   
     text-align: center;
     
 }
