@@ -339,4 +339,9 @@ footer {
         'top-box-a'
         'top-box-b';
     }
+    .teksti {
+        font-size: 16px;
+        margin-top: 85%;
+        padding: 20px 150px 100px 50px;
+    }
 }
