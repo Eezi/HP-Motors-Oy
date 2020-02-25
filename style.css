@@ -43,7 +43,7 @@ body {
     width: 20%;
     float: left;
     height: 700px;
-    filter: brightness(70%);
+    filter: brightness(100%);
     
 }
 @keyframes slider {
@@ -162,12 +162,14 @@ img {
     'showcase showcase top-box-b';*/
 }
 .teksti {  
-    color: #fff;
+    background: rgb(255, 255, 255, .5);
+    color: #222222;
     position: absolute;
     margin-top: 12%;
     margin-left: 4%;
-    width: 50%;
+    width: 30%;
     height: 20%;
+    border-radius: 60px;
     font-size: 2rem;
     padding: 20px;
     flex-direction: column;
