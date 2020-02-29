@@ -19,10 +19,10 @@ html {
 body {
     
     background: #f2f2f2;
-    /*30px top ja bottom ja 50px oikee vasen*/
+   
     margin: 0;
     
-    /*Rivien välien korkeus*/
+   
     
 }
 
@@ -42,7 +42,7 @@ body {
 #slider figure img {
     width: 20%;
     float: left;
-    height: 700px;
+    height: 900px;
     filter: brightness(100%);
     
 }
@@ -131,21 +131,18 @@ img {
     display: grid;
     grid-gap: 20px;
     
-    /*Tällä järjestetään top-box-a ja b oikealle sivulle*/
-    /*grid-template-areas: 
-    'showcase showcase top-box-a'
-    'showcase showcase top-box-b';*/
+   
 }
 .teksti {  
-    /*background: rgb(255, 255, 255, .5);*/
+   
     text-align: center;
     background-color: rgba(0, 70, 165, 0.5);
     color: #fff;
     position: absolute;
     margin-top: 12%;
     margin-left: 4%;
-    width: 30%;
-    height: 20%;
+    min-width: 30%;
+    min-height: 15%;
     border-radius: 60px;
     font-size: 2rem;
     padding: 20px;
@@ -272,7 +269,7 @@ footer {
 /*Media Queries*/
 /*Tämä tapahtuu jos leveys on 700px tai vähemmän*/
 /* showcase kertoo kuinka monena osasta ruutu koostuu*/
-@media(max-width: 700px) {
+@media(max-width: 850px) {
     .top-container {
         grid-template-areas: 
         'showcase showcase'
@@ -281,26 +278,47 @@ footer {
     .showcase h1 {
         font-size: 2.5rem;
     }
+    h1 {
+        font-size: 2.5rem;
+    }
+    #slider {
+        height: 900px;
+        
+    }
 
     .main-nav ul {
         grid-template-columns: 1fr;
     }
     .info {
         grid-template-columns: 1fr;
+        font-size: 27px;
+        line-height: 160%;
     }
-    .info .btn {
-        display: block;
-        text-align: center;
-        margin: auto;
-    }
+    
     .teksti {
-        font-size: 22px;
-        margin-top: 85%;
-        padding: 20px 150px 150px 50px;
+        margin-top: 200px;
+        font-size: 25px;
+        line-height: 40px;
+        padding: 50px 120px 30px 50px;
     }
-    .teksti h2 p {
-        padding: 50px;
+    .teksti p {
+        font-size: 35px;
     }
+    .boxes {
+        padding-top: 73px;
+    }
+    .box h1 {
+        font-size: 25px;
+    }
+    .box p {
+        font-size: 25px;
+        line-height: 140%;
+    }
+    .portfolio {
+        font-size: 26px;
+    }
+  
+    
 }
 @media(max-width: 500px) {
     .top-container {
