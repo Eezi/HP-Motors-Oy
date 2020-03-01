@@ -183,7 +183,7 @@ img {
 
 /* Boxes*/
 .boxes {
-    
+    padding-top: 80px;
     margin: 20px;
     font-size: 18px;
     line-height: 10px;
@@ -291,10 +291,12 @@ footer {
     }
     
     .teksti {
-        margin-top: 200px;
-        font-size: 25px;
+        margin-top: 450px;
+        font-size: 18px;
         line-height: 40px;
-        padding: 50px 120px 30px 50px;
+        padding: 0px;
+        min-width: 20%;
+        min-height: 10%;
     }
     .teksti p {
         font-size: 35px;
