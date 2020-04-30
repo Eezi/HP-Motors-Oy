@@ -359,14 +359,19 @@ footer {
     }
     .box h1 {
         
-        font-size: 24px;
+        font-size: 27px;
+    }
+    .box {
+        border-radius: 4%;
+        border-bottom: 15px solid rgba(0, 70, 165, 0.5);
+        border-top: 15px solid rgba(0, 70, 165, 0.5);
     }
     .box p {
-        font-size: 25px;
+        font-size: 27px;
         line-height: 140%;
     }
     .portfolio {
-        font-size: 26px;
+        font-size: 27px;
         line-height: 17px;
     }
   
@@ -379,11 +384,13 @@ footer {
         'top-box-a'
         'top-box-b';
     }
-    .boxes {
-        font-size: 24px;
-        line-height: 5px;
-    }
     
+    
+}
+@media(min-width: 680px) {
+    .box h1 {
+        font-size: 20px;
+    }
 }
 
 @media(max-width: 1390px) {
@@ -409,7 +416,7 @@ footer {
         justify-content: center;
         text-align: center;
         grid-template-columns: 1fr;
-        font-size: 26px;
+        font-size: 27px;
         line-height: 160%;
     }
     .boxes {
@@ -417,13 +424,11 @@ footer {
        
     }
     
-    .box h1 {
-       
-        font-size: 20px;
-    }
+   
+    
     .box p {
-        font-size: 18px;
-        line-height: 140%;
+        font-size: 27px;
+        line-height: 130%;
     }
     .portfolio {
         font-size: 26px;
@@ -436,5 +441,13 @@ footer {
 @media(width: 1024px) {
     .info img {
         padding-left: 140px;
+    }
+}
+@media(max-width: 400px) {
+    .info {
+        font-size: 27px;
+    }
+    .boxes {
+        font-size: 27px;
     }
 }
