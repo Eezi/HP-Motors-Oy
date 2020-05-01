@@ -185,7 +185,7 @@ img {
     padding-top: 80px;
     margin: 20px;
     font-size: 20px;
-    line-height: 10px;
+    line-height: 100%;
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -193,7 +193,7 @@ img {
 }
 .boxes img {
     
-    width: 100%;
+    width: 110%;
     height: 110px;
     padding: 0;
 }
@@ -266,7 +266,7 @@ footer {
 
 
 
-@media(max-width: 600px) {
+@media(max-width: 680px) {
     #slider {
         overflow: hidden;
     }
@@ -427,7 +427,7 @@ footer {
    
     
     .box p {
-        font-size: 27px;
+        
         line-height: 130%;
     }
     .portfolio {
