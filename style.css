@@ -127,6 +127,7 @@ h1 h2 h3 {
 }
 
 #slider figure {
+  position: relative;
   width: 500%;
   margin: 0;
   left: 0;
