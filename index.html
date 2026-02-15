@@ -3,14 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" content="width=1000" initial-scale=1.0>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description"
         content="Suomalainen autokorjaamo Helsingissä; meiltä katsastuspalvelut, määräaikaishuollot ja muut korjaukset 40 vuoden kokemuksella." />
     <meta name="keywords"
         content="hp motors oy, hpmotors, hp motors, hp-motors, hp-motors oy, hp, motors, motors oy, autokorjaamo helsinki, autokorjaamo roihupelto, katsastus helsinki, autohuolto, auton määräaikaishuolto, suomalainen autokorjaamo" />
-    <link rel="stylesheet" type="text/css" href="style.css">
-    </link>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 
     <title>HP-Motors Oy - Autokorjaamo Helsingissä 40 vuoden kokemuksella</title>
 </head>
@@ -33,10 +36,8 @@
             </ul>
         </nav>
 
-
         <!--Top Container-->
         <section style="position: relative;">
-
             <div id="slider">
                 <figure>
                     <img height="900" src="Sisaankaynti-koko.jpg">
@@ -50,16 +51,16 @@
                 <h1>HP-Motors Oy</h1>
                 <p class="fs-500">Autojen korjausta 40 vuoden kokemuksella</p>
             </div>
-
-
         </section>
+        <div class="container wrapper">
 
         <!--Boxes section-->
-        <section id="palvelut" class="boxes">
-
+        <section id="palvelut">
+        <h2 class="mb">Palvelut</h2>
+            <div class="boxes">
             <div class="box">
                 <img height="110" width="110" loading="lazy" src="cogwheel.svg">
-                <h3 class="mb">Katsastuskorjaukset</h3>
+                <h3>Katsastuskorjaukset</h3>
                 <p>Katsastuspalvelu</p>
 
 
@@ -67,7 +68,7 @@
             <div class="box">
 
                 <img height="110" width="110" loading="lazy" src="transportation.svg">
-                <h3 class="mb">Määräaikaishuollot</h3>
+                <h3>Määräaikaishuollot</h3>
                 <p>Jarrut, iskuvaimentimet, pakoputket yms.</p>
 
 
@@ -75,7 +76,7 @@
             <div class="box">
                 <!-- <img src="tools.svg">-->
                 <img loading="lazy" src="edit-tools.svg" width="400" height="400">
-                <h3 class="mb">Korjaukset</h3>
+                <h3>Korjaukset</h3>
                 <p>Moottorin ja manuaalivaihteiston korjaukset.
                     Vanhoihin autoihin kaasuttimen ym. säädöt</p>
 
@@ -84,11 +85,9 @@
             <div class="box">
                 <!-- <img src="tools.svg">-->
                 <img loading="lazy" src="tool.svg">
-                <h3 class="mb">Rengashuollot</h3>
+                <h3>Rengashuollot</h3>
                 <p>Renkaiden vaihdot ja rengastyöt</p>
-
-
-
+            </div>
             </div>
         </section>
 
@@ -98,7 +97,7 @@
                 <img src="Logo-30v-450.jpg" alt="30 years anniversary image" width="450" height="450" loading="lazy">
             </div>
             <div class="long-info">
-                <h1 class="mb">Tietoa meistä</h1>
+                <h2 class="mb">Tietoa meistä</h2>
                 <p>Autokorjaamon on perustanut Jarmo Pehkonen ja Arto Huttunen vuonna 1990. Aloitimme toimintamme Nokian
                     kaapelitehtaalla, jossa työskentelimme 2 vuotta. Tämän jälkeen siirryimme Lauttasaareen, jossa
                     yrityksemme toimi 28 vuotta.
@@ -112,7 +111,7 @@
         <section class="portfolio" id="osote">
             <div class="address-info">
                 <div class="contact-info">
-                    <h1 class="mb">Aukioloajat ja yhteystiedot</h1>
+                    <h2 class="mb">Aukioloajat ja yhteystiedot</h2>
                     <p>Olemme avoinna</p>
                     <p>ma-to 7:30 - 16:30</p>
                     <p>pe 7.30-15.00</p>
@@ -125,11 +124,12 @@
                 </div>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1164.335771523722!2d25.04982417568451!3d60.21185529932707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920928741cb0cb%3A0xebb6c49a9c5ceb88!2sTulppatie%2016%2C%2000880%20Helsinki!5e0!3m2!1sen!2sfi!4v1763905110511!5m2!1sen!2sfi"
-                    width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    width="500" height="400" style="border:0; border-radius: var(--border-radius-md);" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
     </div>
     </section>
+</div>
 
     <footer>
         <!-- Footer-->
